@@ -8,6 +8,7 @@
         "api-platform/core": "^2.1",
         "doctrine/annotations": "^1.0",
         "doctrine/doctrine-bundle": "^1.6",
+        "doctrine/doctrine-migrations-bundle": "2.0.0",
         "doctrine/orm": "^2.4.5",
         "nelmio/cors-bundle": "^1.5",
         "phpdocumentor/reflection-docblock": "^3.0 || ^4.0",
@@ -23,12 +24,16 @@
         "symfony/yaml": "4.2.*"
     },
     "require-dev": {
+        "symfony/maker-bundle": "1.11"
     },
     "config": {
         "preferred-install": {
             "*": "dist"
         },
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "symfony/flex": true
+        }
     },
     "autoload": {
         "psr-4": {

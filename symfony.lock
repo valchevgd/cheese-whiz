@@ -61,6 +61,19 @@
     "doctrine/doctrine-cache-bundle": {
         "version": "1.4.0"
     },
+    "doctrine/doctrine-migrations-bundle": {
+        "version": "2.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.2",
+            "ref": "b609494a0ab33d79acf3ead2067e3f67c9a47bd2"
+        },
+        "files": [
+            "./config/packages/doctrine_migrations.yaml",
+            "./migrations/.gitignore"
+        ]
+    },
     "doctrine/event-manager": {
         "version": "1.1.1"
     },
@@ -72,6 +85,9 @@
     },
     "doctrine/lexer": {
         "version": "1.2.2"
+    },
+    "doctrine/migrations": {
+        "version": "2.3.0"
     },
     "doctrine/orm": {
         "version": "2.7.5"
@@ -88,6 +104,9 @@
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
     },
+    "laminas/laminas-code": {
+        "version": "4.5.1"
+    },
     "nelmio/cors-bundle": {
         "version": "1.5",
         "recipe": {
@@ -99,6 +118,12 @@
         "files": [
             "./config/packages/nelmio_cors.yaml"
         ]
+    },
+    "nikic/php-parser": {
+        "version": "v4.13.2"
+    },
+    "ocramius/proxy-manager": {
+        "version": "2.12.0"
     },
     "phpdocumentor/reflection-common": {
         "version": "2.2.0"
@@ -213,6 +238,15 @@
     "symfony/inflector": {
         "version": "v4.2.12"
     },
+    "symfony/maker-bundle": {
+        "version": "1.11",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "fadbfe33303a76e25cb63401050439aa9b1a9c7f"
+        }
+    },
     "symfony/polyfill-mbstring": {
         "version": "v1.24.0"
     },
@@ -266,6 +300,9 @@
     "symfony/serializer": {
         "version": "v4.2.12"
     },
+    "symfony/stopwatch": {
+        "version": "v4.2.12"
+    },
     "symfony/twig-bridge": {
         "version": "v4.2.12"
     },
@@ -308,6 +345,9 @@
     },
     "twig/twig": {
         "version": "v2.14.11"
+    },
+    "webimpress/safe-writer": {
+        "version": "2.2.0"
     },
     "webmozart/assert": {
         "version": "1.10.0"
